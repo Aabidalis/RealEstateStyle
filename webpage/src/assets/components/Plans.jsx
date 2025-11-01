@@ -20,7 +20,7 @@ const Plans = () => {
 
       {/* Scrolling image gallery */}
       <div className="w-full overflow-hidden relative">
-        <div className="w-full md:w-[90%] mx-auto overflow-hidden rounded-3xl">
+        <div className="w-full md:w-[90%] mx-auto overflow-hidden  ">
           <div className="flex gap-6 md:gap-12 animate-scroll">
             {images.concat(images).map((src, index) => (
               <div 
@@ -30,7 +30,7 @@ const Plans = () => {
                 <img
                   src={src}
                   alt={`Floor plan ${index + 1}`}
-                  className="w-full h-full object-cover rounded-3xl shadow-lg blur-sm transition-transform duration-500 hover:scale-105"
+                  className="w-full h-full object-cover rounded-3xl shadow-lg blur-xs transition-transform duration-500 hover:scale-105"
                 />
               </div>
             ))}
