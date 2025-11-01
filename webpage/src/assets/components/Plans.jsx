@@ -6,8 +6,8 @@ const Plans = () => {
       <h1 className="text-7xl font-bold text-white text-center mb-50">Floor Plans</h1>
 
       <div className="w-full overflow-hidden relative">
-        <div className="w-[85%] mx-auto overflow-hidden">
-          <div className="flex gap-12 animate-scroll">
+        <div className="w-[85%] mx-auto overflow-hidden rounded-4xl">
+          <div className="flex gap-30 animate-scroll">
             <img className="h-150 w-auto rounded-4xl shadow-lg transition-transform duration-500 hover:scale-105 blur-sm" src="https://www.archistar.ai/wp-content/uploads/2021/11/211108_DSG-323_Blog_what-is-commercial-re-dev_1200x630.png" alt="image 1" />
             <img className="h-150 w-auto rounded-4xl shadow-lg transition-transform duration-500 hover:scale-105 blur-sm" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJGyC3-lH2Pmh2yPcse4L64Q_mWEoXqxDJBg&s" alt="image 2" />
             <img className="h-150 w-auto rounded-4xl shadow-lg transition-transform duration-500 hover:scale-105 blur-sm" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFbf0NUElDoRv0GuHhZlQW7GHDx-BOY-N2GQ&s" alt="image 3" />
