@@ -16,7 +16,7 @@ const Design = () => {
   ];
 
   return (
-    <div className="bg-gray-900 text-white px-4 md:px-20 py-16">
+    <section className="bg-gray-900 text-white px-4 md:px-20 py-16">
       {/* Heading */}
       <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-8 text-center leading-tight">
         Designed around The 'Classic Select'
@@ -37,7 +37,7 @@ const Design = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

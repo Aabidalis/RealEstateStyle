@@ -1,29 +1,41 @@
-import { useState } from 'react'
-import Hero from './assets/components/Hero'
-import About from './assets/components/About'
-import Project from './assets/components/Highlights'
-import Design from './assets/components/Design'
-import Plans from './assets/components/Plans'
-import Contact from './assets/components/Contact'
-import { ToastContainer, toast } from 'react-toastify';
-import Footer from './assets/components/Footer'
+import React from 'react'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import Footer from './components/Footer'
+import { Routes , Route} from 'react-router-dom'
+import Pricing from './pages/Pricing'
+import About from './pages/About'
+import Highlights from './pages/Highlights'
+import Project from './pages/Project'
+import Home from './components/Home'
  
  
-
-function App() {
-   
-
+ 
+const App = () => {
   return (
-    <>
-     <ToastContainer />
-     <Hero />
-     <About />
-     <Project />
-     <Design />
-     <Plans />
-     <Contact />
-     <Footer />
-    </>
+    <div>
+      
+ 
+
+ <Navbar/>
+ 
+ 
+
+<Routes>
+  <Route path='/' element={<Home />} />
+  <Route path='/about' element={<About />} />
+  <Route path='/pricing' element={<Pricing />} />
+  <Route path='/highlights' element={<Highlights />} />
+  <Route path='/project' element={<Project />} />
+</Routes>
+
+
+
+  
+
+      <Footer />
+      
+    </div>
   )
 }
 

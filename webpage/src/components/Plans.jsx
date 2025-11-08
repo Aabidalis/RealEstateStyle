@@ -11,7 +11,7 @@ const Plans = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-600 flex flex-col justify-start py-12 px-4 md:px-20">
+    <section className="min-h-screen bg-gray-600 flex flex-col justify-start py-12 px-4 md:px-20">
 
       {/* Heading */}
       <h1 className="text-4xl sm:text-6xl md:text-7xl font-bold text-white text-center mb-12">
@@ -38,7 +38,7 @@ const Plans = () => {
         </div>
       </div>
 
-    </div>
+    </section>
   );
 };
 
